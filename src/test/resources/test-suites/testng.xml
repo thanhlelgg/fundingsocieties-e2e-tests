@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="com.fundingsocieties" thread-count="1" parallel="tests">
+    <test name="Funding Societies Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.fundingsocieties.TC001_VerifyStatisticsPageMainDisplays"/>
+            <class name="com.fundingsocieties.TC002_VerifyStatisticsPageGeneralViewDisplays"/>
+            <class name="com.fundingsocieties.TC003_VerifyStatisticsPageRepaymentViewDisplays"/>
+            <class name="com.fundingsocieties.TC004_VerifyStatisticsPageDisbursementViewDisplays"/>
+        </classes>
+    </test>
+</suite>

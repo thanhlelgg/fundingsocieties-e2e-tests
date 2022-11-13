@@ -1,0 +1,6 @@
+/target/*
+/.idea/*
+Selenium.iml
+/test-results
+/logs
+.DS_Store
